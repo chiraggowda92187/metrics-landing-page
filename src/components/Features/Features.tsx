@@ -38,7 +38,7 @@ export default function Features(){
           <GridLayout1 />
           <Mask/>
           <div className="absolute right-0 -z-10 flex h-full justify-center items-center space-x-7">
-            {Buttoms.map((button, index)=>{
+            {Buttoms.map((button, _index)=>{
               return (
                 <button className="border rounded-full px-4 py-2 space-x-3 font-medium text-[#697586] font-geist flex justify-center items-center">
                   <img

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const content = [
   {
@@ -41,7 +41,7 @@ export default function Faq(){
                 Frequently asked questions
               </h1>
               <div className="space-y-6 w-full">
-                {content.map((question, index) => {
+                {content.map((question, _index) => {
                   return (
                     <>
                       <Question title={question.title} description={question.description}/>

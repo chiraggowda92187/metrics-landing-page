@@ -93,7 +93,7 @@ export default function Pricing() {
           </button>
         </div>
         <div className="flex w-full h-full justify-center items-center">
-          {contentCard.map((content,index)=>{
+          {contentCard.map((content,_index)=>{
             return (
               <>
                 {!content.popular ? (
@@ -287,7 +287,7 @@ function Tick({ strokeColor }: { strokeColor: string }) {
   );
 }
 
-function Heart({ unicode, color }: { unicode: string; color: string }) {
+function Heart({ unicode }: { unicode: string; color: string }) {
   
   return (
     <>
